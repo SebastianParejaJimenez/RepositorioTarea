@@ -1,0 +1,15 @@
+*{
+    font-family: sans-serif;
+    color: white;
+    background-color: gray;
+}
+h1{
+text-align: center;
+}
+
+
+img{
+    margin-left: auto;
+    width: 800px;
+    margin-right:auto;
+}
