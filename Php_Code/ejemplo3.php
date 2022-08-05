@@ -8,7 +8,9 @@
 
 <body>
     <H1>Pagina de Resultados</H1>
-    <?PHP echo "<P>Tipo de archivo segun extension!</P>";
+    <?php 
+    
+    echo "<P>Tipo de archivo segun extension!</P>";
     $extension = $_POST['extension'];
 
     switch ($extension) {
@@ -35,7 +37,7 @@
     }
     echo ($tipo);
 
-    echo ("</BR></BR>");
+    echo ("<br>");
     echo "<a href='../ejemplo3.html'>Volver<a>";
     ?>
 </body>

@@ -11,13 +11,13 @@
  <body>
      <h1>Ejemplo FOR en PHP</h1>
 
-     <?PHP echo "<P>El Conteo que usted seleciono es:</P>";
+     <?php 
 
-        $seleccion = $_POST['seleccion'];
+        $seleccion = $_POST['select'];
         $numfinal = $_POST['numfinal'];
-        echo "</BR>";
-        $Conteo = "";
-        switch ($seleccion) {
+
+        $Conteo = 0;
+        switch ($seleccion){
 
             case ("1"):  //Consecutivo 
                 for ($i = 1; $i <= $numfinal; $i++) {
@@ -55,7 +55,7 @@
         echo ("</BR></BR>");
         echo "<a href='../ejemplo4.html'>Volver<a>";
 
-        ?>
- </BODY>
+?>
+ </body>
 
- </HTML>
+    </html>
